@@ -142,11 +142,11 @@ public class Logica {
         numB2 = numB * (-1);
         indiceFn2 = indiceFn * (-1);
 
-<<<<<<< HEAD
+
         System.out.println(indiceFn2 + " F_{i-1} + (" + (numB2 * (-1)) + "*F_{i-2}) = (" + indiceFn2 + ")2^(" + numA + "i)/" + numA2);
-=======
+
         System.out.println(indiceFn2 + " F_{i-1} + (" + (numB2 * (-1)) + "*F_{i-2}) = (" + indiceFn2 + ")2^(" + numA + "i)" + numA2);
->>>>>>> b9d1886dc9377138a5dddf539e17ff0e1abba3dd
+
         System.out.println(indiceFn2 * numA2 + " F_{i-1} + (" + (numB2 * (-1)) * numA2 + "*F_{i-2}) = (" + indiceFn2 + ")2^(" + numA + "i)");
         System.out.println("Sumando las ecuaciones para obtener la homogenea:");
 
@@ -187,13 +187,11 @@ public class Logica {
             System.out.println("" + raiz[0] + " | " + auxiliar2 + " | " + condicion2 + "");
             System.out.println();
 
-<<<<<<< HEAD
-            coeficientes=Gauss(indiceFn, auxiliar1, condicion1, raiz[0], auxiliar2, condicion2);
-           
-=======
-            coeficientes=Gauss(raiz[1], auxiliar1, condicion1, raiz[0], auxiliar2, condicion2);
 
->>>>>>> b9d1886dc9377138a5dddf539e17ff0e1abba3dd
+            coeficientes=Gauss(indiceFn, auxiliar1, condicion1, raiz[0], auxiliar2, condicion2);
+            
+
+
             System.out.println("Donde C1 y C2 son:");
             System.out.println("C1 = " + coeficientes[0]);
             System.out.println("C2 = " + coeficientes[1]);
